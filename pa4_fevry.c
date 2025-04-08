@@ -4,7 +4,7 @@
 
 // COP 3502C Spring 2025
 // Student Name: TODO_your_name_here
-// File Name: pa4_yoursurname.c
+// File Name: pa4_fevry.c
 // Note: Rename to use your actual surname. File name should be in lowercase.
 // You must remove any whitespaces or dashes from your surname.
 // Note: **do not** modify or remove TODO comments
@@ -148,7 +148,7 @@ unsigned long get_the_element(unsigned long *arr, unsigned long size) {
     inorderTraversal(tree->root, sortedArr, &index);
 
     //save middle element in array and free sorted and tree
-    int midElement = sortedArr[size / 2];
+    unsigned long midElement = sortedArr[size / 2];
     free(sortedArr);
     freeTree(tree->root);
     free(tree);
